@@ -25,7 +25,13 @@ public class LambdaDemo {
         anonmyousCar.start(2);
 
         // Lambda code, removes many boilerplate codes // Check Consumer interface in Java 8
-        Car lambaCar = i -> System.out.println("Starting Suzuki as an Lambda expression: " + i);
+        Car lambaCar = (i) -> System.out.println("Starting Suzuki as an Lambda expression: " + i);
         lambaCar.start(3);
+
+        startingCar((i) -> System.out.println("Meow" + i));
+    }
+
+    static void startingCar(Car car) {
+        car.start(4);
     }
 }
