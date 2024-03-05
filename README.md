@@ -12,8 +12,9 @@
 2. Declarative programming
 
 ## Interfaces in Java 8
-**We can define methods in interface in Java 8.**<br>
-We can use default and static methods in an interface to define a method
+* **We can define methods in interface in Java 8.**<br>
+* We can use default and static methods in an interface to define a method
+* Examples on LambdaDemoExercise.java
 
 ## forEach method in Java 8
 Does it by internal looping. Faster than regular and advanced for loop
