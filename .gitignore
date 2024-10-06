@@ -32,3 +32,6 @@ bin/
 # Default ignored files
 /shelf/
 /workspace.xml
+
+### Java ###
+*.class
